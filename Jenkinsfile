@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB = 'venkateshhosamani' // Replace with your actual Docker Hub username
         IMAGE_NAME = 'beginner-html-site'
-        REGISTRY_CRED = 'admin' // Jenkins Credential ID for Docker Hub
+        REGISTRY_CRED = 'dockerhub-credentials-id' // Jenkins Credential ID for Docker Hub
     }
     
     stages {
