@@ -2,7 +2,7 @@ pipeline {
     agent { label 'k8s-master' } // Runs build steps on K8s Master agent
     
     environment {
-        DOCKER_HUB = 'YOUR_DOCKERHUB_USERNAME' // Replace with your actual Docker Hub username
+        DOCKER_HUB = 'venkateshhosamani' // Replace with your actual Docker Hub username
         IMAGE_NAME = 'beginner-html-site'
         REGISTRY_CRED = 'dockerhub-credentials-id' // Jenkins Credential ID for Docker Hub
     }
